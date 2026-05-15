@@ -1,5 +1,3 @@
-import 'dotenv/config';
-
 const TOKEN_URL = 'https://auth.guesty.com/oauth2/token';
 
 let cachedToken = null;
