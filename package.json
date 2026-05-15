@@ -1,0 +1,13 @@
+{
+  "name": "jpg",
+  "version": "1.0.0",
+  "description": "Guesty listings utility",
+  "main": "listListings.js",
+  "type": "module",
+  "scripts": {
+    "list": "node listListings.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
