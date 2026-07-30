@@ -17,7 +17,11 @@ def _client() -> ServicetradeClient:
             file=sys.stderr,
         )
         sys.exit(1)
-    return ServicetradeClient(client_id=client_id, client_secret=client_secret)
+    return ServicetradeClient(
+        client_id=client_id,
+        client_secret=client_secret,
+        base_url="https://app.servicetrade.com",
+    )
 
 
 _st = _client()
