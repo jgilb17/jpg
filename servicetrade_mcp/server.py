@@ -2,7 +2,7 @@ import json
 import os
 import sys
 
-from mcp.server.fastmcp import FastMCP
+from fastmcp import FastMCP
 from servicetrade import ServicetradeClient
 
 mcp = FastMCP("servicetrade")
