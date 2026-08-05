@@ -1,0 +1,27 @@
+{
+  "mcpServers": {
+    "stitch": {
+      "command": "npx",
+      "args": ["-y", "@_davideast/stitch-mcp", "proxy"],
+      "env": {
+        "STITCH_API_KEY": "${STITCH_API_KEY}"
+      }
+    },
+    "mcp-image": {
+      "command": "npx",
+      "args": ["-y", "mcp-image"],
+      "env": {
+        "GEMINI_API_KEY": "${GEMINI_API_KEY}",
+        "IMAGE_QUALITY": "${IMAGE_QUALITY:-quality}",
+        "IMAGE_OUTPUT_DIR": "${IMAGE_OUTPUT_DIR:-/tmp/design-images}"
+      }
+    },
+    "magic": {
+      "command": "npx",
+      "args": ["-y", "@21st-dev/magic@latest"],
+      "env": {
+        "API_KEY": "${TWENTYFIRST_API_KEY}"
+      }
+    }
+  }
+}
