@@ -45,7 +45,17 @@ if (tool === 'Bash') {
   if (/\.claude\/settings|guard\.mjs|obsidian-recall-safe\.sh|obsidian-session-end\.sh/i.test(cmd)) deny('command touches guardrail or authority-bearing hook files')
   /* TIER TWO — autonomous only. */
   if (AUTONOMOUS) {
-    if (/\bgit\s+push\b/i.test(cmd)) deny('git push in an autonomous session is blocked; a deploy-branch push must be attended')
+    /* Catch `push` as a git subcommand in ANY invocation form, not just
+       `git` immediately followed by `push`. Global options can be injected
+       between the two — `git -c k=v push`, `git -C /path push`,
+       `git --git-dir=x push`, and any repeat/combination of them, plus
+       env-prefixed (`GIT_SSH=x git push`) and piped (`… | git push`) forms.
+       The old /\bgit\s+push\b/ matched none of those, which is exactly how
+       `git -c core.pager=cat push` slipped through. `push` must still be the
+       git SUBCOMMAND (first non-option token), so this does not fire on an
+       unrelated `git commit -m "add push button"`. */
+    if (/(^|[\s;&|(])git(\s+-{1,2}[^\s]+(\s+[^\s-][^\s]*)?)*\s+push\b/i.test(cmd))
+      deny('a git push (any invocation form) in an autonomous session is blocked; a deploy-branch push must be attended')
     if (/\brm\b/i.test(cmd)) deny('rm in an autonomous session is blocked')
     if (/\bsudo\b/i.test(cmd)) deny('sudo in an autonomous session is blocked')
     if (/\b(drop|truncate|delete)\b/i.test(cmd)) deny('drop, truncate or delete in an autonomous session is blocked')
