@@ -49,3 +49,19 @@ about 13 staff.
   surface), regenerate, and copy; CLAUDE.md has the exact commands. The
   generator round-trips byte-identical to the committed index.html — keep it
   that way.
+
+## Project 3 — First Wave Dental
+
+First Wave Dental, a dental practice business. Owner: Joshua Gilbert. Kept in
+its own repo so dental work stays separate from Desert Fire and APEK. Early
+stage: the site and internal tooling are being built out.
+
+- Repo: jgilb17/first-wave-dental (private). The durable copy of the source is
+  ~/first-wave-dental on Joshua's Mac; sandbox copies are disposable.
+- Live: not yet deployed.
+- Backend: none yet.
+- Context files, in reading order:
+  1. CLAUDE.md — session-facing rules and the safety-guard note
+- Carries the same canonical safety guard as every other repo
+  (.claude/hooks/guard.mjs, md5 2b0f5a39…); CLAUDE.md says what it blocks and
+  how to confirm it is live.
