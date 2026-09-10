@@ -4,25 +4,7 @@
       "Read(./.env)",
       "Read(./.env.*)",
       "Read(**/.env)",
-      "Read(**/.env.*)",
-      "Edit(.claude/settings.json)",
-      "Write(.claude/settings.json)",
-      "Edit(**/.claude/settings.json)",
-      "Write(**/.claude/settings.json)",
-      "Edit(.claude/settings.local.json)",
-      "Write(.claude/settings.local.json)",
-      "Edit(**/.claude/settings.local.json)",
-      "Write(**/.claude/settings.local.json)",
-      "Edit(.claude/hooks/guard.mjs)",
-      "Write(.claude/hooks/guard.mjs)",
-      "Edit(**/.claude/hooks/guard.mjs)",
-      "Write(**/.claude/hooks/guard.mjs)",
-      "Edit(~/.claude/settings.json)",
-      "Write(~/.claude/settings.json)",
-      "Edit(~/.claude/settings.local.json)",
-      "Write(~/.claude/settings.local.json)",
-      "Edit(~/.claude/hooks/guard.mjs)",
-      "Write(~/.claude/hooks/guard.mjs)"
+      "Read(**/.env.*)"
     ],
     "ask": [
       "Bash(git push)",
@@ -40,18 +22,5 @@
       "mcp__claude_ai_Supabase__execute_sql"
     ]
   },
-  "hooks": {
-    "PreToolUse": [
-      {
-        "matcher": "Bash|Supabase__execute_sql|Supabase__apply_migration|mcp__github__push_files|mcp__github__create_or_update_file|mcp__github__delete_file|mcp__github__merge_pull_request",
-        "hooks": [
-          {
-            "type": "command",
-            "command": "node \"$CLAUDE_PROJECT_DIR/.claude/hooks/guard.mjs\"",
-            "timeout": 10
-          }
-        ]
-      }
-    ]
-  }
+  "hooks": {}
 }
