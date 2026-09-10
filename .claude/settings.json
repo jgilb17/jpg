@@ -11,13 +11,15 @@
       "Bash(git push:*)",
       "Bash(rm:*)",
       "Bash(sudo:*)",
-      "mcp__Supabase__apply_migration"
+      "mcp__Supabase__apply_migration",
+      "mcp__claude_ai_Supabase__apply_migration"
     ],
     "allow": [
       "Bash",
       "Edit",
       "Write",
-      "mcp__Supabase__execute_sql"
+      "mcp__Supabase__execute_sql",
+      "mcp__claude_ai_Supabase__execute_sql"
     ]
   },
   "hooks": {}
