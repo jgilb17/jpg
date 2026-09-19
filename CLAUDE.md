@@ -4,9 +4,35 @@ Project registry lives in `PROJECTS.md`.
 
 ## Safety guard
 
-A PreToolUse hook — `.claude/hooks/guard.mjs`, wired in `.claude/settings.json` and loaded fresh from this repo's clone at the start of every session — blocks with exit code 2 the reads and writes that must never happen unattended: reading any `.env`, editing the guard or settings files, the GitHub write tools, and DDL inside a Supabase query in **every** mode, plus `git push`, `rm`, `sudo`, and destructive SQL in **autonomous** sessions (any `permission_mode` other than `default` or `plan`).
+A PreToolUse hook blocks with exit code 2 the reads and writes that must
+never happen unattended: reading any `.env`, editing the guard or settings
+files, the GitHub write tools, and DDL inside a Supabase query in **every**
+mode, plus `git push`, `rm`, `sudo`, and destructive SQL in **autonomous**
+sessions (any `permission_mode` other than `default` or `plan`).
 
-To check it is live, run `cat .env` in a Bash call: if the guard is loaded you'll see `BLOCKED by guard:` on stderr and the command is stopped; if the command runs normally, the hook is not loading.
+The guard is registered globally in `~/.claude/settings.json` and loads from
+`~/projects/claude-guard/guard.mjs`. It is not part of this repo. This clone
+has no `.claude/hooks/` directory, and the repo's own `.claude/settings.json`
+carries an empty `hooks` block, so nothing here registers the guard and
+nothing here needs to. A second global hook,
+`~/.claude/hooks/sql-guard.mjs`, covers `execute_sql`: it allows reads and
+asks on writes.
+
+The repo's `.claude/settings.json` still contributes a static permission
+layer of its own: `Read` denies on `.env` paths, and `ask` on `git push`,
+`rm`, `sudo`, and `apply_migration`.
+
+### Checking that it is live
+
+`cat .env` no longer tests the hook. The global settings deny
+`Bash(cat .env:*)` outright, so that command is stopped by the static
+permission layer before any hook runs, and a block proves only that the
+permission layer is working. Verify the hook by inspecting
+`~/.claude/settings.json` and `~/projects/claude-guard/guard.mjs` directly,
+outside an agent session.
+
+Do not test the guard by reading the real `.env` through some other command.
+A test whose failure mode is a leaked secret is not a test worth running.
 
 ### If the guard blocks you, stop
 
