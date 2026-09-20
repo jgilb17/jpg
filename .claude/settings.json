@@ -9,10 +9,7 @@
       "Read(./.env)",
       "Read(./.env.*)"
     ],
-    "ask": [
-      "mcp__Supabase__apply_migration",
-      "mcp__claude_ai_Supabase__apply_migration"
-    ],
+    "ask": [],
     "allow": [
       "Bash",
       "Edit",
@@ -27,15 +24,6 @@
   },
   "hooks": {
     "PreToolUse": [
-      {
-        "matcher": "mcp__.*__execute_sql",
-        "hooks": [
-          {
-            "type": "command",
-            "command": "node \"$CLAUDE_PROJECT_DIR/.claude/hooks/sql-guard.mjs\""
-          }
-        ]
-      },
       {
         "matcher": "Bash|mcp__.*Supabase__execute_sql|mcp__.*Supabase__apply_migration|mcp__github__push_files|mcp__github__create_or_update_file|mcp__github__delete_file|mcp__github__merge_pull_request",
         "hooks": [
