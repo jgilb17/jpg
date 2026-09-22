@@ -4,3 +4,15 @@
 **/.env.*
 node_modules/
 *.bak
+
+# The project clones, which are SEPARATE git repositories that happen to sit
+# inside this working tree. Each has its own .git and its own remote; this repo
+# is the registry (PROJECTS.md) and the shared guard, not their parent.
+#
+# Without this, every session in one of them ends with the stop hook reporting
+# untracked files and asking for a commit that must never happen: committing a
+# nested clone either vendors a whole second repository into this one or writes
+# a gitlink pointing at a commit this repo cannot fetch. Neither is recoverable
+# by the person who runs it by accident, and the warning fired on two
+# consecutive days before this line existed.
+df-correspondence/
