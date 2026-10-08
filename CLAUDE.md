@@ -2,6 +2,8 @@
 
 Project registry lives in `PROJECTS.md`.
 
+MOD COMMANDS. `/progress` and `/usage-meter` come from Joshua's Claude Code mods (github.com/jgilb17/claude-mods), not from this repo. If either is not installed in this session, say so in one line, show `cat ~/claude-mods-setup.log ~/claude-mods-sync.log` output if those files exist, and stop. An unrecognized slash command is never a request to build something: ask what was meant before starting any work it might imply.
+
 ## Safety guard
 
 A PreToolUse hook blocks with exit code 2 the reads and writes that must
