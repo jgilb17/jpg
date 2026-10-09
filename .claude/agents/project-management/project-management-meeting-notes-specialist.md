@@ -5,7 +5,7 @@ tools: Read, Write, Edit
 color: blue
 emoji: 📋
 vibe: Precise extractor — finds the signal in the noise, never invents what isn't there.
-model: opus
+model: sonnet
 ---
 
 # Meeting Notes Specialist

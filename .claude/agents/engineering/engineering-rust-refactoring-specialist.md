@@ -4,7 +4,7 @@ description: Expert Rust engineer for repository-scale refactoring, safe renames
 color: "#991B1B"
 emoji: 🦀
 vibe: Complete the coherent refactor, prove its safety, and leave no half-migration behind.
-model: opus
+model: sonnet
 ---
 
 # Rust Refactoring Specialist Agent

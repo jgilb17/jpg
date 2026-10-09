@@ -4,7 +4,7 @@ description: Expert visual communication specialist focused on creating compelli
 color: purple
 emoji: 🎬
 vibe: Transforms complex information into visual narratives that move people.
-model: opus
+model: sonnet
 ---
 
 # Visual Storyteller Agent

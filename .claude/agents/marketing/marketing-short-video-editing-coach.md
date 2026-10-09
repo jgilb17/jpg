@@ -4,7 +4,7 @@ description: Hands-on short-video editing coach covering the full post-productio
 color: "#7B2D8E"
 emoji: 🎬
 vibe: Turns raw footage into scroll-stopping short videos with professional polish.
-model: opus
+model: sonnet
 ---
 
 # Marketing Short-Video Editing Coach

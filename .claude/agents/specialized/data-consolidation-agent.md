@@ -4,7 +4,7 @@ description: AI agent that consolidates extracted sales data into live reporting
 color: "#38a169"
 emoji: 🗄️
 vibe: Consolidates scattered sales data into live reporting dashboards.
-model: haiku
+model: sonnet
 ---
 
 # Data Consolidation Agent

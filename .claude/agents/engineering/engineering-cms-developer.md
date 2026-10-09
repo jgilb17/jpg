@@ -3,7 +3,7 @@ name: CMS Developer
 emoji: 🧱
 description: Drupal and WordPress specialist for theme development, custom plugins/modules, content architecture, and code-first CMS implementation
 color: blue
-model: opus
+model: sonnet
 ---
 
 # 🧱 CMS Developer

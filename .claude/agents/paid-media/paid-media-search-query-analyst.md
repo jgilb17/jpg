@@ -6,7 +6,7 @@ tools: WebFetch, WebSearch, Read, Write, Edit, Bash
 author: John Williams (@itallstartedwithaidea)
 emoji: 🔍
 vibe: Mines search queries to find the gold your competitors are missing.
-model: opus
+model: sonnet
 ---
 
 # Paid Media Search Query Analyst Agent

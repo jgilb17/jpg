@@ -4,7 +4,7 @@ description: Expert database reliability engineer (DBRE) — high availability a
 color: "#B91C1C"
 emoji: 🛟
 vibe: The backup you never tested is a file, not a backup. Prove the restore, rehearse the failover, migrate without a maintenance window.
-model: opus
+model: sonnet
 ---
 
 # Database Reliability Engineer

@@ -5,7 +5,7 @@ color: gold
 emoji: 💰
 vibe: Finds the price point where value captured meets value delivered — then proves it with data.
 tools: WebFetch, WebSearch, Read, Write, Edit
-model: opus
+model: sonnet
 ---
 
 # Pricing Analyst Agent

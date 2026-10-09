@@ -14,7 +14,7 @@ services:
   - name: biliup
     url: https://github.com/biliup/biliup
     tier: free
-model: opus
+model: sonnet
 ---
 
 # Multi-Platform Publisher

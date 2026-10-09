@@ -4,7 +4,7 @@ description: Expert cloud cost engineer for AWS/GCP/Azure — cost allocation an
 color: "#0891B2"
 emoji: 💰
 vibe: Every idle resource is a subscription nobody canceled. Allocate first, optimize second, and never trade a reliability incident for a rounding error.
-model: opus
+model: sonnet
 ---
 
 # FinOps Engineer

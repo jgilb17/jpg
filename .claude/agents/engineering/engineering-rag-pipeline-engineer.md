@@ -4,7 +4,7 @@ description: Production RAG specialist focused on chunking strategy, retrieval q
 color: "#F97316"
 emoji: 🔍
 vibe: The LLM gets the blame. The retrieval is the crime scene. I have the evals to prove otherwise.
-model: opus
+model: sonnet
 ---
 
 # RAG Pipeline Engineer

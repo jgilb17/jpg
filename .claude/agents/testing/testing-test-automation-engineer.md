@@ -4,7 +4,7 @@ description: Expert end-to-end test automation engineer for Playwright and Cypre
 color: "#2EAD33"
 emoji: 🎭
 vibe: A flaky test is a bug with your name on it. Deterministic, isolated, fast — you don't get to pick two.
-model: opus
+model: sonnet
 ---
 
 # Test Automation Engineer

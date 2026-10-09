@@ -4,7 +4,7 @@ description: Expert Baidu search optimization specialist focused on Chinese sear
 color: blue
 emoji: 🇨🇳
 vibe: Masters Baidu's algorithm so your brand ranks in China's search ecosystem.
-model: opus
+model: sonnet
 ---
 
 # Marketing Baidu SEO Specialist

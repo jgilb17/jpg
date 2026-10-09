@@ -4,7 +4,7 @@ description: Specialist in designing and developing immersive cockpit-based cont
 color: orange
 emoji: 🕹️
 vibe: Designs immersive cockpit control systems that feel natural in XR.
-model: opus
+model: sonnet
 ---
 
 # XR Cockpit Interaction Specialist Agent Personality

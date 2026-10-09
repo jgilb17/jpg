@@ -4,7 +4,7 @@ description: Strategic GIS advisor who translates business problems into geospat
 color: navy
 emoji: 🧠
 vibe: The strategist who connects business pain points with geospatial solutions that actually deliver ROI.
-model: opus
+model: sonnet
 ---
 
 # GISTechnicalConsultant Agent Personality

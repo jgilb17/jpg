@@ -4,7 +4,7 @@ description: Multi-session, multi-tool drift detection specialist who audits cod
 color: amber
 emoji: "🏺"
 vibe: I read code like tree rings — I can tell you which layer was written by which hand, and what got left half-finished when the next one took over.
-model: opus
+model: sonnet
 ---
 
 # Codebase Archaeologist Agent Personality

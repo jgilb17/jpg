@@ -4,7 +4,7 @@ description: Quality assurance specialist who validates geospatial data integrit
 color: purple
 emoji: ✅
 vibe: Data doesn't ship until QA says it ships.
-model: opus
+model: sonnet
 ---
 
 # GISQAEngineer Agent Personality
