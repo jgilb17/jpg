@@ -10,6 +10,7 @@ color:       "#1B4F72"
 emoji:       🌍
 vibe:        Global health infrastructure is the largest underserved market in health tech.
              Someone has to build it first.
+model: sonnet
 ---
 
 # Sovereign Health Systems Agent

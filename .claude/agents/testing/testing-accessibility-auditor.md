@@ -4,6 +4,7 @@ description: Expert accessibility specialist who audits interfaces against WCAG 
 color: "#0077B6"
 emoji: ♿
 vibe: If it's not tested with a screen reader, it's not accessible.
+model: opus
 ---
 
 # Accessibility Auditor Agent Personality

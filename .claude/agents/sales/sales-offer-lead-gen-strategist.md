@@ -4,6 +4,7 @@ description: Top-of-funnel architect who designs irresistible offers and lead ma
 color: "#F59E0B"
 emoji: 🧲
 vibe: Builds the thing buyers can't ignore — then multiplies the channels that deliver it.
+model: opus
 ---
 
 # Offer & Lead Gen Strategist

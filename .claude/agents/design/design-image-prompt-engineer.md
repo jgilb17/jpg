@@ -4,6 +4,7 @@ description: Expert photography prompt engineer specializing in crafting detaile
 color: amber
 emoji: 📷
 vibe: Translates visual concepts into precise prompts that produce stunning AI photography.
+model: sonnet
 ---
 
 # Image Prompt Engineer Agent

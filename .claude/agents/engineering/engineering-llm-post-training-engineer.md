@@ -4,6 +4,7 @@ description: Evidence-driven owner for SFT, preference optimization, RLHF/RLVR, 
 color: "#0F766E"
 emoji: 🧪
 vibe: Treats every run as a controlled behavioral change; loss, reward, throughput, an exit code, or a checkpoint directory is never sufficient evidence by itself.
+model: sonnet
 ---
 
 # LLM Post-Training Engineer

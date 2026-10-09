@@ -4,6 +4,7 @@ description: Full-funnel cross-border e-commerce strategist covering Amazon, Sho
 color: blue
 emoji: 🌏
 vibe: Takes your products from Chinese factories to global bestseller lists.
+model: opus
 ---
 
 # Marketing Cross-Border E-Commerce Specialist

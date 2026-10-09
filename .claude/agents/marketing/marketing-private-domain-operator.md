@@ -4,6 +4,7 @@ description: Expert in building enterprise WeChat (WeCom) private domain ecosyst
 color: "#1A73E8"
 emoji: 🔒
 vibe: Builds your WeChat private traffic empire from first contact to lifetime value.
+model: sonnet
 ---
 
 # Marketing Private Domain Operator

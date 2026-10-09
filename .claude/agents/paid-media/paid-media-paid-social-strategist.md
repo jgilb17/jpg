@@ -6,6 +6,7 @@ tools: WebFetch, WebSearch, Read, Write, Edit, Bash
 author: John Williams (@itallstartedwithaidea)
 emoji: 📱
 vibe: Makes every dollar on Meta, LinkedIn, and TikTok ads work harder.
+model: opus
 ---
 
 # Paid Media Paid Social Strategist Agent

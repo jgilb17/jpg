@@ -4,6 +4,7 @@ description: Interactive audio specialist - Masters FMOD/Wwise integration, adap
 color: indigo
 emoji: 🎵
 vibe: Makes every gunshot, footstep, and musical cue feel alive in the game world.
+model: sonnet
 ---
 
 # Game Audio Engineer Agent Personality

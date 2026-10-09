@@ -4,6 +4,7 @@ description: Expert operations manager specializing in day-to-day studio efficie
 color: green
 emoji: 🏭
 vibe: Keeps the studio running smoothly — processes, tools, and people in sync.
+model: opus
 ---
 
 # Studio Operations Agent Personality

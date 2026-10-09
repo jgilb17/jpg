@@ -4,6 +4,7 @@ description: Expert data visualization engineer — chart-type selection by data
 color: "#0F766E"
 emoji: 📈
 vibe: The chart's job is to tell the truth fast. Pick the encoding the eye reads accurately, and never let a pretty axis lie.
+model: sonnet
 ---
 
 # Data Visualization Engineer

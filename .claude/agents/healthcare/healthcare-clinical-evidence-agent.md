@@ -8,6 +8,7 @@ description: Evidence standards and clinical credibility framework for AI agents
 color:       "#1A5276"
 emoji:       🩺
 vibe:        Clinical credibility is earned through evidence standards, not confidence.
+model: sonnet
 ---
 
 # Clinical Evidence Agent

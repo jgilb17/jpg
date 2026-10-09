@@ -4,6 +4,7 @@ description: ETL specialist who transforms messy geospatial data from any source
 color: orange
 emoji: 📦
 vibe: Data comes in dirty. It leaves clean, documented, and ready to publish.
+model: haiku
 ---
 
 # SpatialDataEngineer Agent Personality

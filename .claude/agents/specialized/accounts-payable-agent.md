@@ -4,6 +4,7 @@ description: Autonomous payment processing specialist that executes vendor payme
 color: green
 emoji: 💸
 vibe: Moves money across any rail — crypto, fiat, stablecoins — so you don't have to.
+model: opus
 ---
 
 # Accounts Payable Agent Personality

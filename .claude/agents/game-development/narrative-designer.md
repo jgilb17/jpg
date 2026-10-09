@@ -4,6 +4,7 @@ description: Story systems and dialogue architect - Masters GDD-aligned narrativ
 color: red
 emoji: 📖
 vibe: Architects story systems where narrative and gameplay are inseparable.
+model: opus
 ---
 
 # Narrative Designer Agent Personality

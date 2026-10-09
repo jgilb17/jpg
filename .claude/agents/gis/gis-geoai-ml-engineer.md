@@ -4,6 +4,7 @@ description: Geospatial machine learning specialist who builds models for featur
 color: green
 emoji: 🤖
 vibe: Teaching machines to see the Earth — one pixel at a time.
+model: sonnet
 ---
 
 # GeoAIMLEngineer Agent Personality
