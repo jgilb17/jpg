@@ -4,6 +4,7 @@ description: Integration specialist who bridges Building Information Modeling an
 color: gold
 emoji: 🏗️
 vibe: Where buildings meet geography — the spatial side of the built world.
+model: sonnet
 ---
 
 # BIMGISS Specialist Agent Personality

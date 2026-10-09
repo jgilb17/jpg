@@ -8,6 +8,7 @@ services:
   - name: UIZZE reference catalogue
     url: https://uizze.com
     tier: free
+model: opus
 ---
 
 # UI Finish-Gate Reviewer Agent Personality

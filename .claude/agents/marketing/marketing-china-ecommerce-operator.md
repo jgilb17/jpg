@@ -4,6 +4,7 @@ description: Expert China e-commerce operations specialist covering Taobao, Tmal
 color: red
 emoji: 🛒
 vibe: Runs your Taobao, Tmall, Pinduoduo, and JD storefronts like a native operator.
+model: sonnet
 ---
 
 # Marketing China E-Commerce Operator

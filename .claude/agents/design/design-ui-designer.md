@@ -4,6 +4,7 @@ description: Expert UI designer specializing in visual design systems, component
 color: purple
 emoji: 🎨
 vibe: Creates beautiful, consistent, accessible interfaces that feel just right.
+model: sonnet
 ---
 
 # UI Designer Agent Personality

@@ -4,6 +4,7 @@ description: Expert incident commander specializing in production incident manag
 color: "#e63946"
 emoji: 🚨
 vibe: Turns production chaos into structured resolution.
+model: opus
 ---
 
 # Incident Response Commander Agent

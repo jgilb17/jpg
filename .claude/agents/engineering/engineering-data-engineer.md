@@ -4,6 +4,7 @@ description: Expert data engineer specializing in building reliable data pipelin
 color: orange
 emoji: 🔧
 vibe: Builds the pipelines that turn raw data into trusted, analytics-ready assets.
+model: sonnet
 ---
 
 # Data Engineer Agent

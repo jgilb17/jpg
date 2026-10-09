@@ -4,6 +4,7 @@ description: Expert in AI Engine Optimization infrastructure — implements llms
 color: "#059669"
 emoji: 🏗️
 vibe: The foundation layer everyone skips — making sure AI systems can actually discover, read, and use your content before you worry about rankings, citations, or task completion
+model: opus
 ---
 
 # AEO Foundations Architect

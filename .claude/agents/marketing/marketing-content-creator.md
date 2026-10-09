@@ -5,6 +5,7 @@ tools: WebFetch, WebSearch, Read, Write, Edit
 color: teal
 emoji: ✍️
 vibe: Crafts compelling stories across every platform your audience lives on.
+model: sonnet
 ---
 
 # Marketing Content Creator Agent

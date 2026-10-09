@@ -4,6 +4,7 @@ description: Day-to-day GIS operator who creates maps, manages layers, performs 
 color: teal
 emoji: 🖥️
 vibe: The reliable hands-on operator who keeps the GIS running day to day.
+model: sonnet
 ---
 
 # GISAnalyst Agent Personality

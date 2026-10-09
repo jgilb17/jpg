@@ -4,6 +4,7 @@ description: Engineering specialist focused on minimum-viable diffs — fixes on
 color: slate
 emoji: 🪡
 vibe: The smallest diff that solves the problem — every extra line is a liability.
+model: sonnet
 ---
 
 # Minimal Change Engineer Agent
